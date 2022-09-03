@@ -36,4 +36,4 @@ b2 = Book("The Catcher in the Rye","Yasin Yağmur",1962,38.95, )
 # print(b2.getprice())
 
 # TODO: properties with double underscores are hidden by the interpreter
-print(b2.__secret)
+print(b2._Book__secret)
